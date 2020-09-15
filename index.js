@@ -17,13 +17,13 @@ function johnLennonFacts(facts){
   return(array)
 }
 function iLoveTheBeatles(num){
-  num=0
-  num=num+1
-}var anArray=[]
+  var anArray=[]
   do{
     anArray.push("I love the Beatles!")
-  }while(iLoveTheBeatles()<=15){
-    return anArray.puhs("I love the Beatles!")
+    num =num+1
+  }while(num<15){
+    console.log(15-num)
   }
-  
+  return anArray
+}  
     
